@@ -1,0 +1,128 @@
+body{
+    background-color: #202124;
+    margin: 0;
+    padding: 0;
+}
+.text-desing{
+    margin: 12px 5px 0px;
+    float: right;
+    color: white;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: small;
+}
+.navbar{
+    width: 100%;
+    display: block;
+    clear: both;
+}
+.navbar > a:hover{
+    text-decoration: underline;
+}
+.auth-img{
+    border-radius: 15px;
+    margin: 2px 5px 0px;
+    float: right;
+}
+.google-image{
+    text-align: center;
+    width: 50%;
+    margin: 5px auto;
+    clear: both;
+    box-sizing: border-box;
+    padding-top:100px ;
+}
+.img-desing{
+    margin-top: 30px;
+}
+.search-area-settings{
+    background: #202124;
+    display: flex;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    z-index: 3;
+    height: 44px;
+    margin: 0 auto;
+    margin-top: 0px;
+    width: 582px;
+    border-radius: 24px;
+}
+.search-area{
+    width: 90%;
+}
+.search-area-settings:hover{
+    box-shadow: 0 4px 5px 0 rgba(247, 247, 247, 0.24);
+}
+
+.input-area{
+    background-color: #202124;
+    color: white;
+    border: 0px;
+    height: 70%;
+    width: 90%;
+    margin-top: 5px;
+    outline: none;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Small', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 0px;
+}
+.img-search-div{
+    height: 22px;
+    width: 22px;
+    margin-top: 12px;
+    margin-left: 12px;
+}
+.img-voice{
+    height: 30px;
+    width: 30px;
+    margin-top: 5px;
+    margin-right: 8px;
+}
+
+.btn-genel-settings{
+    width: 90%;
+    margin: 20px auto;
+    text-align: center;
+}
+.btn-desing{
+    height: 35px;
+    width: 150px;
+    margin: 5px;
+    padding: 0px;
+    color: white;
+    background-color: #303134;
+    border: #303134;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.btn-desing:hover{
+    border: 1px solid;
+    border-color: #797979;
+    /* box-shadow: 0 4px 5px 0 rgba(247, 247, 247, 0.24); */
+}
+.nav-bottom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid #dadce0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.footer{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+    line-height: 16px;
+    font-size: 12px;
+}
+.footer > a{
+    color: #fff;
+    margin-left: 15px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-decoration: none;
+}
+.footer > a:hover{
+    text-decoration: underline;
+}
