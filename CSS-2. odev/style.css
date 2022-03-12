@@ -1,0 +1,62 @@
+.head{
+    padding-top: 10px; /*Google image'ine yukarıdan iç boşluk vermek için kullanılmıştır. */
+    padding-bottom: 5px ; /*Google image'ine aşağıdan iç boşluk vermek için kullanılmıştır. */
+    text-align: center;/*Image'i ortalamak için kullanımıştır.*/
+    display: block;/*Boyutu kadar alanı kapatmak ve sonradan gelen etiketi aşağıya atmak için kullanılmıştır.*/
+    margin: 0 auto;/*Sağdan ve soldan boşluk vermesi için kullanılmıştır.*/
+}
+.arama-ekrani{
+    width: 80%;/*Ekranın %80'nini kaplaması için kullanılmıştır.*/
+    margin:auto;/*width tag'i ile kullanıldığında kapsayan tag'i ortalamak için kullanılmıştır. */
+    background-color: rgb(190, 188, 188);/*tag'in arkaplan renginin belirlemek için kullanılmıştır.*/
+    text-align: center;/*tag'in içindeki ögeleri ortalamak için kullanılmıştır.*/
+}
+.arama-motoru-info{
+    margin: 0px;
+    padding: 5px 0px;
+}
+.input-text-area{
+    width: 300px;
+    float: none; /*seçilen ögenin soldan mı sağdan mı yazılacağını belirler.*/ 
+    display: block;
+    clear: both;/*kendinden önce veya sonra gelen tag'in aşağı itilmesi için kullanılmıştır.*/
+    margin: 0px auto;    
+}
+.card-desing{
+    width: 80%;
+    margin: 2px auto;
+}
+.card1{
+    width: 400px;
+    height: 70px;
+    padding-top: 15px;
+    margin-right: 3px;
+    text-align: center;
+    background-color:#70CCC2;
+    font-size: medium;/*yazı büyüklüğü için kullanılmıştır.*/
+    float: left;
+}
+.card2{
+    width: 220px;
+    height: 75px;
+    padding-top: 10px;
+    margin-right: 3px;
+    text-align: center;
+    background-color:#70CCC2;
+    font-size: small;
+    float: left;
+}
+.card3{
+    width: 454px;
+    height: 80px;
+    margin-left: 0px;
+    padding-top: 5px;
+    text-align: center;
+    background-color:#70CCC2;
+    font-size: small;
+    float: left;
+}
+a{
+    padding: 0px;
+    margin: 0px;
+}
