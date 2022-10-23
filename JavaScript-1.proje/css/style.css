@@ -1,0 +1,27 @@
+body{
+    background-color: rgb(56, 55, 55);
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+}
+
+.container span{
+    font-size: 50px;
+    color: #e98208;
+}
+
+.container p{
+    font-size: 40px;
+    color: #e98208;
+    text-align: center;
+}
+
+.container #hours{
+    font-size: 60px;
+    color: #e98208;
+}
