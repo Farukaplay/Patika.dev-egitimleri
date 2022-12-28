@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.container .title{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+
+    background-color: #f78501;
+}
+
+.container .title img{
+    background-color: #FFF;
+}
+
+.container .title p{
+    font-size: 30px;
+    color: #FFF;
+}
+
+.container .title form{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .title input{
+    width: 70%;
+    height: 40px;
+    border: none;
+    padding: 8px;
+}
+
+.container .title button{
+    width: 20%;
+    height: 40px;
+    border: none;
+    border-radius: 0;
+}
+
+.list-style li{
+    position: relative;
+    list-style: none;
+    padding: 12px 40px 12px 40px;
+    cursor: pointer;
+    border: 1px solid #ddd;
+    border-top: none;
+}
+
+.list-style li:hover {
+    background: #ddd;
+    transition: background 300ms ease;
+  }
+
+.list-style li:nth-child(odd) {
+    background: #f9f9f9;
+}
+
+
+.list-style li.checked{
+    text-decoration: line-through;
+    background: #276678;
+    color: #FFF;
+    transition: background-color 300ms ease;
+}
+
+.list-style li.checked::before{
+    content: "check";
+    font-family: "material symbols outlined";
+    position: absolute;
+    left: 10px;
+    font-size: 18px;
+}
+
+
+.list-style li span.closed::after{
+    content: "close";
+    font-family: "material symbols outlined";
+    position: absolute;
+    top: 0;
+    right: 0px;
+    width: 40px;
+    height: 100%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 300ms ease ;
+}
+
+.list-style li span.closed:hover::after{
+    background-color: #f78501;
+}
